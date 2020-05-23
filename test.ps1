@@ -1,0 +1,1 @@
+dotnet test --configuration Release /p:CollectCoverage=true /p:CoverletOutputFormat="cobertura%2copencover" /p:CoverletOutput=./TestResults/Coverage/
