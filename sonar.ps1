@@ -1,0 +1,1 @@
+sonar-scanner.bat -D"sonar.organization=letos009" -D"sonar.projectKey=letos009_mslearn-tailspin-spacegame-web" -D"sonar.sources=." -D"sonar.host.url=https://sonarcloud.io" -D"sonar.login=97dce4812de748465f8f6559a723ff023d779baa" -D"sonar.cs.opencover.reportsPaths=./Tailspin.SpaceGame.Web.Tests/TestResults/Coverage/coverage.opencover.xml" -D"sonar.exclusions=**/wwwroot/lib/**/*"
